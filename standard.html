@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>开发规范</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload typora-export os-windows">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="index.html">未来工作室</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li>
+                        <a href="#">组成人员</a>
+                        <ul>
+                            <li><a href="nine_leaves_introduction.html">玖叶凌风</a></li>
+                            <li><a href="peler_introduction.html">Peler</a></li>
+                            <!-- <li>
+                                    <a href="#">Submenu</a>
+                                    <ul>
+                                        <li><a href="#">Option 1</a></li>
+                                        <li><a href="#">Option 2</a></li>
+                                        <li><a href="#">Option 3</a></li>
+                                        <li><a href="#">Option 4</a></li>
+                                    </ul>
+                                </li> -->
+                        </ul>
+                    </li>
+                    <!-- <li><a href="elements.html">Elements</a></li> -->
+                    <li><a href="standard.html">开发规范</a></li>
+                    <li><a href="#" class="button primary">加入工作室！</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>未来工作室开发规范</h2>
+                    <!-- <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p> -->
+                </header>
+
+                <!-- Content -->
+                <section id="content">
+                    <div class='typora-export-content'>
+                        <div id='write' class=''>
+                            <h1 id='未来工作室开发规范'><span>未来工作室开发规范</span></h1>
+                            <h2 id='约定'><span>约定</span></h2>
+                            <p><span>下文中：</span></p>
+                            <ul>
+                                <li>
+                                    <p><span>“工作室”指</span><code>未来工作室</code></p>
+                                </li>
+                            </ul>
+                            <h2 id='概述'><span>概述</span></h2>
+                            <p><span>1968年，北大西洋公约组织的计算机科学家在联邦德国召开会议，提出并使用了“软件危机”这一名词。随着工作室规模的扩大，早期形成的个体化软件开发方法必须设法修正，以避免软件危机。本规范系统性，科学性的全面阐述了工作室开发规范，对今后工作室发展起到规范作用。</span>
+                            </p>
+                            <h2 id='开发流程'><span>开发流程</span></h2>
+                            <p><span>当开始一个新的产品开发时，应遵守以下流程：</span></p>
+                            <ol start=''>
+                                <li>
+                                    <p><span>进行讨论，详细表述开发产品的性能，特征。</span></p>
+                                </li>
+                                <li>
+                                    <p><span>选举职位（详见）</span></p>
+                                </li>
+                                <li>
+                                    <p><span>布道者设计开发模型，规定开发标准（通常是基于面向对象设计）</span></p>
+                                </li>
+                                <li>
+                                    <p><span>产品经理分配任务，明确提交周期</span></p>
+                                </li>
+                                <li>
+                                    <p><span>产品经理设计完整团队开发流程</span></p>
+                                </li>
+                                <li>
+                                    <p><span>架构师建立基础架构</span></p>
+                                </li>
+                                <li>
+                                    <p><span>程序员在布道者设计的开发模型中，架构师建立的基础架构中，按期完成产品经理分配的开发任务</span></p>
+                                </li>
+                                <li>
+                                    <p><span>产品经理审查程序员提交代码，汇总代码，完成阶段性任务</span></p>
+                                </li>
+                                <li>
+                                    <p><span>【4-8流程循环进行】</span></p>
+                                </li>
+                                <li>
+                                    <p><span>运维人员进行产品发布及后期维护</span></p>
+                                </li>
+                            </ol>
+                            <h2 id='职位设计'><span>职位设计</span></h2>
+                            <h3 id='布道者'><span>布道者</span></h3>
+                            <p><span>规划产品开发总路线，用图标等形式设计开发模型。</span></p>
+                            <h3 id='架构师'><span>架构师</span></h3>
+                            <p><span>根据布道者设计的开发模型进行基础架构搭建。</span></p>
+                            <h3 id='产品经理'><span>产品经理</span></h3>
+                            <p><span>根据布道者规划的产品开发路线，分配任务，构建团队开发流程</span></p>
+                            <h3 id='程序员'><span>程序员</span></h3>
+                            <p><span>在布道者设计的开发模型中，架构师建立的基础架构中，按期完成产品经理分配的开发任务</span></p>
+                            <h3 id='运维人员'><span>运维人员</span></h3>
+                            <p><span>负责软件的发布，宣传，后期维护</span></p>
+                            <p><em><strong><span>工作室中任何职位不分高低贵贱，可一人分配多职位，一职位分配多人</span></strong></em></p>
+                            <h2 id='软件开发规范'><span>软件开发规范</span></h2>
+                            <h3 id='python'><span>python</span></h3>
+                            <h4 id='命名规范'><span>命名规范</span></h4>
+                            <h5 id='变量小写下划线'><span>变量：小写+下划线</span></h5>
+                            <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+                                lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">is_game_over</span> <span class="cm-operator">=</span> <span class="cm-keyword">True</span></span></pre>
+                        </div>
+                        <pre class=" CodeMirror-line "
+                            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">count</span> <span class="cm-operator">=</span> <span class="cm-number">0</span></span></pre>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <h5 id='定量大写下划线'><span>定量：大写+下划线</span></h5>
+    <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+        lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre>
+    </div>
+    <div class="CodeMirror-measure"></div>
+    <div style="position: relative; z-index: 1;"></div>
+    <div class="CodeMirror-code" role="presentation">
+        <div class="CodeMirror-activeline" style="position: relative;">
+            <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div>
+            <pre class=" CodeMirror-line "
+                role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">WINDOW_WIDTH</span> <span class="cm-operator">=</span> <span class="cm-number">1024</span></span></pre>
+        </div>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">FPS</span> <span class="cm-operator">=</span> <span class="cm-number">60</span></span></pre>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <h5 id='函数名小写下划线'><span>函数名：小写+下划线</span></h5>
+    <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+        lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre>
+    </div>
+    <div class="CodeMirror-measure"></div>
+    <div style="position: relative; z-index: 1;"></div>
+    <div class="CodeMirror-code" role="presentation">
+        <div class="CodeMirror-activeline" style="position: relative;">
+            <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div>
+            <pre class=" CodeMirror-line "
+                role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">exit</span>():</span></pre>
+        </div>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">puase_game</span>():</span></pre>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <h5 id='类名大写驼峰式写法）'><span>类名：大写（驼峰式写法）</span></h5>
+    <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+        lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre>
+    </div>
+    <div class="CodeMirror-measure"></div>
+    <div style="position: relative; z-index: 1;"></div>
+    <div class="CodeMirror-code" role="presentation">
+        <div class="CodeMirror-activeline" style="position: relative;">
+            <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div>
+            <pre class=" CodeMirror-line "
+                role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Block</span>():</span></pre>
+        </div>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">PlayerSprite</span>(): </span></pre>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <h5 id='gettersetter-函数'><span>getter/setter 函数</span></h5>
+    <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+        lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre>
+    </div>
+    <div class="CodeMirror-measure"></div>
+    <div style="position: relative; z-index: 1;"></div>
+    <div class="CodeMirror-code" role="presentation">
+        <div class="CodeMirror-activeline" style="position: relative;">
+            <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div>
+            <pre class=" CodeMirror-line "
+                role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">get_blood</span>(<span class="cm-variable-2">self</span>):</span></pre>
+        </div>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">set_level</span>(<span class="cm-variable-2">self</span>):</span></pre>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <p><span>返回值为布尔类型，或结果由</span><code>if</code><span>语句产生的函数</span></p>
+    <pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"
+        lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 14.25px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre>
+    </div>
+    <div class="CodeMirror-measure"></div>
+    <div style="position: relative; z-index: 1;"></div>
+    <div class="CodeMirror-code" role="presentation">
+        <div class="CodeMirror-activeline" style="position: relative;">
+            <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div>
+            <pre class=" CodeMirror-line "
+                role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">is_game_over</span>():</span></pre>
+        </div>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">is_hit_block</span>():</span></pre>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div>
+    <div class="CodeMirror-gutters" style="display: none; height: 65px;"></div>
+    </div>
+    </div>
+    </pre>
+    <p><em><strong><span>可以以此规范为基础进行扩增，但不得与本规范精神相违背，否则应视为无效</span></strong></em></p>
+    <h4 id='注释规范'><span>注释规范</span></h4>
+    <p><span>必要注释：</span></p>
+    <ul>
+        <li>
+            <p><span>函数各参数含义及返回值含义（包括构造函数）</span></p>
+        </li>
+    </ul>
+    <p><span>非必要注释：</span></p>
+    <ul>
+        <li>
+            <p><span>标注复杂语句作用</span></p>
+        </li>
+        <li>
+            <p><span>TODO标记工作</span></p>
+        </li>
+        <li>
+            <p><span>标注程序过程量含义</span></p>
+        </li>
+    </ul>
+    <h3 id='c'><span>C#</span></h3>
+    <p><span>...</span></p>
+    <h2 id='工作室团队开发流程'><span>工作室团队开发流程</span></h2>
+    <ol start=''>
+        <li>
+            <p><span>由产品经理创建Gitee在线仓库</span></p>
+        </li>
+        <li>
+            <p><span>将其他成员加入仓库，赋予其余所有人“程序员”权限</span></p>
+        </li>
+        <li>
+            <p><span>成员将仓库克隆到本地</span></p>
+        </li>
+        <li>
+            <p><span>成员新建分支进行开发</span></p>
+        </li>
+        <li>
+            <p><span>成员提交分支</span></p>
+        </li>
+        <li>
+            <p><span>产品经理审查代码，合并代码</span></p>
+        </li>
+        <li>
+            <p><span>【4-6循环】</span></p>
+        </li>
+        <li>
+            <p><span>运维人员发布release版本</span></p>
+        </li>
+    </ol>
+    <h2 id='工作室交流规范'><span>工作室交流规范</span></h2>
+    <p><span>工作室使用QQ群进行基础交流，须遵守以下规范：</span></p>
+    <ol start=''>
+        <li>
+            <p><span>所有信息向所有成员公开</span></p>
+        </li>
+        <li>
+            <p><span>所有成员拥有在任何时间发表言论的权力，除非违反了本规范</span></p>
+        </li>
+        <li>
+            <p><span>遇到分歧时，首先应友善沟通，如解决不了问题，则进行民主投票</span></p>
+        </li>
+        <li>
+            <p><span>所有成员不被允许使用任何语言辱骂，侮辱他人，否则进行禁言处理</span></p>
+        </li>
+        <li>
+            <p><span>所有成员不得刷图，刷消息，否则进行禁言处理</span></p>
+        </li>
+        <li>
+            <p><span>遵守中华人民共和国相关法律法规，否则开除出工作室</span></p>
+        </li>
+    </ol>
+    <h2 id='工作室管理规范'><span>工作室管理规范</span></h2>
+    <ol start=''>
+        <li>
+            <p><span>工作室管理人员不得违背此规范精神</span></p>
+        </li>
+        <li>
+            <p><span>做到科学制定规范，严格执行规范，公正判处规范，全体遵守规范</span></p>
+        </li>
+        <li>
+            <p><span>在管理过程中，既要重视规范的标准作用，也要重视道德的教化作用</span></p>
+        </li>
+    </ol>
+    </div>
+    </div>
+    </section>
+
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- <ul class="icons">
+                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul> -->
+        <ul class="copyright">
+            <li>&copy; 未来工作室. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
